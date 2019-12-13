@@ -22,7 +22,7 @@
              background-size: 35px;
              width: 300px;
              position: absolute;
-             height: 275px;
+             height: 260px;
              left: 100px;
              top: 370px;
              background-color: #943f28;
@@ -35,17 +35,51 @@
       border-right: 205px solid transparent;
       border-bottom: 150px solid #7aadff;
       position: relative;
-      top: 210px;
-      left: 40px;
+      top: 215px;
+      left: 37px;
     }
   
+        #door{
+            background: url('door.png') no-repeat center center;
+            background-size: contain;
+            height: 150px ;
+            width: 100px ;
+            position: absolute;
+            top: 480px;
+            left: 197px;
+          
+        }
+
+        #window{
+            background: url('window.png') no-repeat center center;
+            background-size: contain;
+            height: 170px;
+            width: 100px;
+            position:absolute;
+            top: 350px;
+            left:100px;
+        }
+
+        #window2{
+            background: url('window.png') no-repeat center center;
+            background-size: contain;
+            height: 170px;
+            width: 100px;
+            position:absolute;
+            top: 350px;
+            right:100px;
+        }
         
+
 
         </style>
      </head>
     <body>
         <div id='ground'> </div>
         <div id='brick'></div>
-       <div class="arrow-up"></div>
+       <div class='arrow-up'></div>
+       <div id='door'></div>
+       <div id='window'></div>
+       <div id='window2'></div>
     </body>
 </html>
