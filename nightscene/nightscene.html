@@ -35,18 +35,18 @@
       border-right: 205px solid transparent;
       border-bottom: 150px solid #7aadff;
       position: relative;
-      top: 215px;
-      left: 37px;
+      bottom:150px;
+      right: 50px;
     }
   
         #door{
             background: url('door.png') no-repeat center center;
             background-size: contain;
-            height: 150px ;
-            width: 100px ;
+            height: 120px ;
+            width: 75px ;
             position: absolute;
-            top: 480px;
-            left: 197px;
+            bottom: -2px;
+            left: 110px;
           
         }
 
@@ -56,8 +56,8 @@
             height: 170px;
             width: 100px;
             position:absolute;
-            top: 350px;
-            left:100px;
+            bottom: 100px;
+            left:2px;
         }
 
         #window2{
@@ -66,20 +66,36 @@
             height: 170px;
             width: 100px;
             position:absolute;
-            top: 350px;
-            right:100px;
+            bottom: 100px;
+            left: 200px;
         }
         
-
+        #moon{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            box-shadow: 20px 15px #fff;
+            position: absolute;
+            top: 50px;
+            right: 80px;
+        }
+        #star{
+             background: url('4pointStarW.png') no-repeat center center;
+             height: 50px;
+             width: 50px;
+        }
 
         </style>
      </head>
     <body>
         <div id='ground'> </div>
-        <div id='brick'></div>
-       <div class='arrow-up'></div>
-       <div id='door'></div>
-       <div id='window'></div>
-       <div id='window2'></div>
+        <div id='brick'>
+         <div class='arrow-up'></div>
+          <div id='door'></div>
+         <div id='window'></div>
+          <div id='window2'></div>
+        </div>
+        <div id='moon'></div>
+        <div id='star'> </div>
     </body>
 </html>
