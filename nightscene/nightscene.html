@@ -87,6 +87,7 @@
              width: 7px;
              position: absolute;
         }
+            
         #shootingStar{
             background: url('shootingStar.png') no-repeat center center;
             background-size: contain;
@@ -96,13 +97,14 @@
             top: 10px;
             left: 20px;
             animation-name: shine;
-            animation-duration: 4s;
+            animation-duration: 5s;
             animation-iteration-count: infinite;
         }
        
-    @keyframes shine {
-    {background-color:white; left:200px; top:0px;}
- 
+            @keyframes shine {
+            0% {opacity:4; left:0px; top:0px;}
+            25% {opacity:0; left:1400px; top:0px;}
+            100% {opacity:0; left:1400px; top:0px;}
     }
         </style>
          <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
