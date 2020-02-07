@@ -1,5 +1,5 @@
 @CHARSET "UTF-8";
- .thing{
+ .box{
             display:inline-block;
             height: 100px;
             width: 200px;
@@ -15,7 +15,7 @@
             font-size: 50px;
             border-radius: 25px;
         }
-        .type2{
+        .violet{
             background-color: blueviolet;
             border-radius: 25px;
             font-size: 50px;
