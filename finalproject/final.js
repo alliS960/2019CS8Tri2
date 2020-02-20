@@ -5,3 +5,12 @@ $(".sky").click(
        $("#main").css("background-image",sky);
     }
 );
+
+$(".helicopter").click(
+    function(){
+       var fly = $(this).css("background-image");
+       console.log(fly);
+       $("#yellow").css("background-image",fly);
+    }
+);
+
